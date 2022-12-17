@@ -1,0 +1,107 @@
+ <form className="row g-3">
+        <div class="form-group">
+        <label>Name/Title
+        </label>
+        <input type="text" name="title" required   class="form-control" id="mobile" placeholder="Enetr your name and Title"  />
+        <div class="validation"></div>
+    </div>
+    <div class="form-row">
+        <div class="col-lg-6">
+        <div class="form-group">
+        <label>Date To</label>
+        <input type="date" name="date_to" class="form-control" id="mobile" placeholder="Your Mobile"  data-validation="length" data-validation-length="min2"/>
+        <div class="validation"></div>
+        </div>
+        </div>
+        <div class="col-lg-6">
+        
+        <div class="form-group">
+        <label>Date From</label>		
+        <input type="date" name="date_from" class="form-control" id="email" placeholder="Your Email"  data-validation="length" data-validation-length="min2"/>
+            <div class="validation"></div>
+        </div>
+        </div>      
+        </div>
+        <div class="form-row">
+        <div class="col-lg-6">
+        <div class="form-group">
+        <label>Time To</label>
+        <input type="time" name="time_to" class="form-control" id="mobile" placeholder="Your Mobile"  data-validation="length" data-validation-length="min2"/>
+        <div class="validation"></div>
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="form-group">
+        <label>Time From
+        </label>
+            <input type="time" name="time_from" class="form-control" id="email" placeholder="Your Email"  data-validation="length" data-validation-length="min2"/>
+            <div class="validation"></div>
+        </div>
+        
+        <div class="form-group">
+        <label>Entertainments:-</label><br/>;
+            <input type="checkbox" name="music"  value="yes" />Music&nbsp;&nbsp;
+            <input type="checkbox" name="dance"  value="yes" />Dance&nbsp;&nbsp;
+            <input type="checkbox" name="cartoon"  value="yes" />Cartoons
+            <div class="validation"></div>
+        </div>
+        </div>
+        </div>
+</form>
+
+
+
+
+ <section id="service">
+      <div class="container">
+        <header class="section-header">
+          <h3>Services</h3>
+         </header>
+        <div class="row about-container">
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p>
+             <h1>Birthday</h1> </p>
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="#">Birthday</a></h4>
+              <p class="description" style="text-align:justify">Birthday parties are a great boost to any child's self-esteem. Making them feel like kings (or queens) for the day is one of the best (and most lasting) gifts you can give them. But where and how should you start?
+
+Theme
+Many parents feel more comfortable starting with a theme around which they can organize invitations, decorations, games, crafts and food. Both you and your child will enjoy making plans that reflect her interests — whether it's a sports theme, a dinosaur bash, an art party, a backyard beach picnic, a trip back in time, or an animal adventure.
+
+
+Place</p>
+            </div>
+            
+
+          </div>
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="img/a.jpg" class="img-fluid" alt=""/>
+          </div>
+        </div>
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/b.jpg" class="img-fluid" alt=""/>
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>WEDDING</h4>
+            <p>
+              The people who make up the wedding party (the br/ide and groom, the br/idesmaids and groomsmen, the flower girl and ring bearer, or the father and mother of the br/ide) are basically the MVPs of the big day. Get br/idal party fashion advice, etiquette tips, gift ideas, and more. </p>
+            <p>
+            </p>
+          </div>
+        </div>
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/c.jpg" class="img-fluid" alt=""/>
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>ENGAGEMENT</h4>
+            <p>
+            “The greatest thing you'll ever learn is just to love and be loved in return.” – Eden Ahbez.<br/>
+“You come to love not by finding the perfect person, but by seeing an imperfect person perfectly.” – Anonymous.<br/>
+Say congratulations to a loved one on their engagement with a special message that feels unique and personal.<br/> Whether you’re sending an engagement card to a friend or family member, your message should always include your<br/> warm wishes for the couple as they begin this new chapter in life together. If you’re worried about finding the <br/>perfect words to say, we have you covered with valuable tips on what to write in an engagement card, so you can<br/> shower the br/ide and groom with love.</p>
+          </div>
+        </div>
+      </div>
+    </section>
